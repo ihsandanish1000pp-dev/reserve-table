@@ -1,0 +1,361 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.home {
+    background-color: aliceblue;
+}
+
+.home:hover {
+    background-color: hwb(30 69% 29%);
+}
+
+.res {
+    background-color: orange;
+    border: none;
+    outline: none;
+    width: 150px;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+.we {
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.icon {
+    width: 32px;
+}
+
+.dolor {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #817d7d;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+
+.exp {
+    width: 140px;
+    border: none;
+    font-family: cursive;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.sea {
+    width: 140px;
+    border: none;
+    font-family: cursive;
+    color: black;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid black;
+}
+
+
+.picc {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/* second container */
+.pop {
+    padding-left: 100px;
+}
+
+.bor {
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: white;
+}
+
+.first {
+    width: 100px;
+}
+
+
+.sect {
+    box-shadow: 5px 4px 8px gray;
+}
+
+.firsts {
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.con {
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+}
+
+.add {
+    background: none;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.second {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.seconds {
+    font-weight: bold;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    padding-top: 8px;
+}
+
+.secondd {
+    padding-top: 11px;
+}
+
+.third {
+    width: 100px;
+}
+
+.thirdd {
+    padding-top: 10;
+    font-weight: bold;
+}
+
+.thirddd {
+    padding-top: 10px;
+}
+
+.four {
+    width: 100px;
+}
+
+.fourth {
+    font-weight: bold;
+    /* padding-top: 8px; */
+}
+
+
+.dishes {
+    margin-top: 60px;
+    background-color: #e3e3d9;
+}
+
+
+/* third container */
+.tab {
+    margin-top: 80px;
+}
+
+.more {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.sit {
+    color: hsl(0, 2%, 20%);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.error {
+    text-align: center;
+}
+
+.order {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.on {
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.abus {
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    width: 70px;
+    background-color: #f1be60;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 29px;
+    width: 120px;
+}
+
+
+
+/* container four */
+
+.pick {
+    padding-top: 100px;
+}
+
+.special {
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(196, 144, 47);
+    font-weight: bold;
+}
+
+
+.speciall {
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #f1be60;
+    font-weight: bold;
+    border: none;
+}
+
+.acc {
+    /* display: flex; */
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+/* container fluid */
+.atl {
+    margin-top: 50px;
+}
+
+
+/* siven container */
+.do {
+    padding-top: 80px;
+}
+
+.plan {
+    /* display: flex;
+    justify-content: space-around; */
+    margin-top: 40px;
+    /* text-align: center; */
+}
+
+.make {
+    background-color: #f1be60;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 7px;
+    padding-right: 5px;
+}
+
+.is {
+    margin-top: 40px;
+}
+
+
+/* eight container */
+.eight {
+    /* border: 1px solid black; */
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.custo {
+    margin-top: 30px;
+}
+
+
+.per {
+    /* width: 200px; */
+    text-align: center;
+}
+
+.man {
+    margin-top: 30px;
+}
+
+
+
+/* container-nine */
+
+ .busy {
+    background-color: #e3e3d9;
+} 
+
+ .fell {
+    padding-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+} 
+
+ .store {
+    background-color: #f1be60;
+    width: 130px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+
+} 
+
+ .play {
+    border: 1px solid black;
+    width: 130px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+} 
+
+ .mobile {
+    margin-top: 80px;
+    text-align: center;
+} 
+
+.absol {
+      
+    position:relative;
+    text-align: center;
+    
+}
+
+.reddd {
+
+     padding-top: 50px;
+}
+
+.email
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.carrer
+{
+    width: 20px;
+}
+
+.use
+{
+    margin-top: 50px;
+}
+
+
+.last
+{
+    text-align: center;
+}
+
+
+
+/* Resver table */
+
+.len
+{
+    margin-top: 20px;
+}

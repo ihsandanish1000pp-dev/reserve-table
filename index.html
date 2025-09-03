@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="icon/icon.html.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active home " aria-current="page" href="about.html"
+                            style="color: black; font-size: 15; font-family:Arial, Helvetica, sans-serif ;">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link home" href="menu.html"
+                            style="color: black; font-size: 15px;font-family:Arial, Helvetica, sans-serif;">Menu</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link home" href="#"
+                            style="color: black; font-size: 15px; font-family: Arial, Helvetica, sans-serif;">Reviews</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link home" href="#"
+                            style="color: black;font-family: Arial, Helvetica, sans-serif;">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link home" href="contact.html"
+                            style="color: black; font-family: Arial, Helvetica, sans-serif;">contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        </a>
+
+
+                </ul>
+                <a href="Resreve Table.html"><button onclick="res()" class="res">Reserve Table</button></a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-sm-12 col-md-5 col-lg-5">
+                <h1 class="we">We Serve The Test You love <img class="img-fluid icon" src="icon/icon 2.png" alt=""></h1>
+                <p class="dolor">This the type of resturent Which Typically Serves Food and Drink
+                    In Addition To light Refreshaments Such as Backed Goods or Snicks. The Term
+                    Comes Form the Rench Word Meaning Food
+                </p>
+
+                <button onclick="explore()" class="exp">Explore</button>
+                <button onclick="explore()" class="sea">search</button>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="picc">
+                    <img class="img-fluid" src="pic/pic 1.png" alt="this is img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- second container -->
+    <div class="container-fluid dishes">
+        <h4 class="pop">Popular Dishes</h4>
+        <div class="row">
+            <!-- <div class="col-sm-12 col-md-1 col-lg-1"></div> -->
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid first" src="pic/pic 2.png" alt="">
+                    <h4 class="firsts">Pasto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae</p>
+                    <h5 class="con">$35.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid second" src="pic/pic 3.png" alt="this is is img">
+                    <div class="seconds">Frenches Fire</div>
+                    <p class="secondd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, explicabo.</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid third" src="pic/pic 4.png" alt="this is img">
+                    <div class="thirdd">checken Shawrama</div>
+                    <p class="thirddd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, id?</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid four" src="pic/pic 5.png" alt="this is img">
+                    <p class="fourth">Fish Carry</p>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dicta?</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- third container -->
+    <div class="container-fluid tab">
+        <div class="row">
+            <div class="col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <img class="img-fluid" src="pic/man 1.png" alt="this is img">
+            </div>
+            <div class="col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-sm-12 col-md-5 col-lg-5">
+                <h1 class="more">We Are More Then <br>Multiple Survice</h1>
+                <p class="sit">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error expedita unde
+                    inciduntsapiente
+                    quibusdam perferendis aut, odio deleniti ratione ea! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
+                <div class="order">
+                    <ul class="on">
+                        <li>Online Order</li>
+                        <li>24/5</li>
+                        <li>clean Kitchen</li> <br>
+                        <button onclick="" class="abus">About Us</button>
+                    </ul>
+
+                    <ul class="on">
+                        <li>Pre-Revrestion</li>
+                        <li>Oraganized Foodie Place</li>
+                        <li>Supper chefs</li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- container four -->
+
+    <div class="container-fluid pick">
+        <h2 style="text-align: center; font-weight: bold;">Our Regular Menu Pick</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-1 col-lg-1"></div>
+            <div class="col-sm-12 col-md-10 col-lg-10 acc">
+                <button class="special">Special Foods</button>
+                <button class="special">Maxican</button>
+                <button class="speciall">italln</button>
+                <button class="special">Japanese</button>
+                <button class="special">Drink</button>
+                <button class="special">Lunch</button>
+                <button class="special">More Them</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- five container -->
+    <div class="container-fluid atl">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid first" src="pic/pic 2.png" alt="">
+                    <h4 class="firsts">Pasto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae</p>
+                    <h5 class="con">$35.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid second" src="pic/pic 3.png" alt="this is is img">
+                    <div class="seconds">Frenches Fire</div>
+                    <p class="secondd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, explicabo.</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid third" src="pic/pic 4.png" alt="this is img">
+                    <div class="thirdd">checken Shawrama</div>
+                    <p class="thirddd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, id?</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid four" src="pic/pic 5.png" alt="this is img">
+                    <p class="fourth">Fish Carry</p>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dicta?</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid first" src="pic/pic 2.png" alt="">
+                    <h4 class="firsts">Pasto</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae</p>
+                    <h5 class="con">$35.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid second" src="pic/pic 3.png" alt="this is is img">
+                    <div class="seconds">Frenches Fire</div>
+                    <p class="secondd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, explicabo.</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid third" src="pic/pic 4.png" alt="this is img">
+                    <div class="thirdd">checken Shawrama</div>
+                    <p class="thirddd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, id?</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3 bor">
+                <div class="sect">
+                    <img class="img-fluid four" src="pic/pic 5.png" alt="this is img">
+                    <p class="fourth">Fish Carry</p>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dicta?</p>
+                    <h5 class="con">$55.00 <button onclick="add()" class="add">Add to cart</button></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- siven container -->
+    <div class="container-fluid">
+        <div class="row plan">
+            <div class="col-sm-12 col-md-2 col-lg-2"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4 do">
+                <h3>Do You Have Any Dinner <br> Plan Today? Reserve Your Table</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at expedita? Omnis ullam
+                    asperiores maiores.</p>
+                <button onclick="make()" class="make">Make Resvertion</button>
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <img class="img-fluid is" src="pic/pic 6.png" alt="this is img">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- eight container -->
+    <div class="container-fluid custo">
+        <h5 style="padding-left: 40px;">What Our Customer</h5>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="eight">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sequi expedita minima voluptas hic,
+                    magni veniam. Enim odit voluptas perferendis Lorem ipsum dolor sit amet consectetur aFdipisicing
+                    elit. Velit, dignissimos. <br><br>
+                    <h6>Danish</h6>
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="eight">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sequi expedita minima voluptas hic,
+                    magni veniam. Enim odit voluptas perferendis. Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Accusantium, assumenda? <br><br>
+                    <h6>Zohaib</h6>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="eight">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sequi expedita minima voluptas hic,
+                    magni veniam. Enim odit voluptas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Voluptatem, exercitationem. <br><br>
+                    <h6>khan</h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- nine contaienr -->
+    <div class="container-fluid man">
+        <div class="row">
+            <div class="col-sm-1 col-md-2 col-lg-2"></div>
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <img class="img-fluid per" src="pic/man 3.jpg" alt="this is img">
+                <h6>Ihsan</h6>
+            </div>
+
+
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <img class="img-fluid per" src="pic/man 3.jpg" alt="this is img">
+                <h6>Danish</h6>
+            </div>
+
+
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <img class="img-fluid per" src="pic/man 3.jpg" alt="this is img">
+                <h6>Kashif</h6>
+            </div>
+
+
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <img class="img-fluid per" src="pic/man 3.jpg" alt="this is img">
+                <h6>Asif</h6>
+            </div>
+
+        </div>
+    </div>
+    <!-- container nine -->
+    <div class="container-fluid busy">
+        <div class="row">
+            <div class="col-sm-12 col-md-2 col-lg-2"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <h2 class="reddd">Never Fell Hungry !
+                    Download Our Mobile App <br>
+                    Enjoy Delicious Food
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni itaque ea hic dolorem!</p>
+                <button onclick="" class="store">App Store</button>
+                <button onclick="" class="play">Goole play</button>
+            </div>
+
+            <!-- <div class="col-sm-12 col-md-1 col-lg-1"></div> -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="absol">
+                    <img class="img-fluid mobile" src="pic/mobile33.png" alt="this is img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid use">
+        <div class="row">
+            <div class="col-sm-12-col-md-1 col-lg-1"></div>
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <h5>Subrices our <br>
+                    letter
+                </h5>
+                <input class="email" type="Email" name="Email" placeholder="Email">
+                <div>
+                    <img class="img-fluid carrer" src="icon/icon 3.png" alt="this is img">
+                    <img class="img-fluid carrer" src="icon/icon 4.png" alt="this is img">
+                    <img class="img-fluid carrer" src="icon/icon 6.png" alt="this is img">
+                    <img class="img-fluid carrer" src="icon/icon 7.png" alt="this is img">
+                </div>
+            </div>
+</body>
+
+</html>
